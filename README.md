@@ -3,6 +3,9 @@
 This repository is example from whatsapp-api from [adiwajshing/Baileys](https://github.com/adiwajshing/Baileys/tree/multi-device)
 This example get chat from whatsapp and publish to mqtt and then you can publish message to spesific number whatsapp from mqtt (eg. send message whatsapp from arduino/ESP/PLC,SCADA)
 
+## Requirement
+Nodejs v16 
+
 ## Installation
 For windows, install git first [git for windows](https://gitforwindows.org/)
 For Linux, git already installed
