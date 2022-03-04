@@ -44,3 +44,9 @@ Connet to broker ismaillowkey.my.id and publish with topic **wa/send** and with 
  "message" :  "your message"
 }
 ```
+
+## With pm2
+[BUG] automatic restart app every 1 hour
+```
+pm2 start npm --name "whatsappmd-mqtt" -- start --cron-restart="0 * * * *"
+```
