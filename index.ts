@@ -67,7 +67,8 @@ let sock: WASocket
         const sock = makeWASocket({
             logger: P({ level: 'debug' }),
             auth: loadState(),
-            printQRInTerminal: true
+            printQRInTerminal: true,
+			version: [2,2204,13],
         })
 
         sock.ev.on('messages.upsert', async m => {
