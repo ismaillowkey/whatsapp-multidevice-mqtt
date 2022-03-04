@@ -5,8 +5,8 @@ import makeWASocket, { WASocket, AuthenticationState, DisconnectReason, AnyMessa
 const mqtt = require('mqtt')
 
 const BROKER = 'ismaillowkey.my.id'
-const TOPICRECEIVE = 'ismaillowkey/receivechat'
-const TOPICSENDFROMMQTT = 'ismaillowkey/sendchat'
+const TOPICRECEIVE = 'wa/receive'
+const TOPICSENDFROMMQTT = 'wa/send'
 var mqttClient  = mqtt.connect('mqtt://' + BROKER, { clientId:"mqttjs01_" + Math.floor(Math.random() * 10000) })
 
 mqttClient.on('connect', function () {
