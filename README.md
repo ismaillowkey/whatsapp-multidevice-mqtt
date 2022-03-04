@@ -34,10 +34,10 @@ npm start
 Qrcode will display in terminal after "npm start", in your whatsapp app on android/ios will set to sender, YOU MUST JOIN WHATSAPP MULTI DEVICE BETA BEFORE SCAN QR CODE [whatsapp multi device beta](https://faq.whatsapp.com/web/download-and-installation/how-to-join-or-leave-the-multi-device-beta/?lang=en)
 
 ## Send to number whatsapp to and the publish to mqtt 
-Send message to your number whatsapp (whatsapp as sender and scan qrcode from terminal), topic will publish to broker ismaillowkey.my.id with topic wa/receive
+Send message to your number whatsapp (whatsapp as sender and scan qrcode from terminal), topic will publish to broker ismaillowkey.my.id with topic **wa/receive**
 
 ## Send message from mqtt to spesific number whatsapp
-Connet to broker ismaillowkey.my.id and publish with topic wa/send and with body (number must with country code like 62 or indonesia)
+Connet to broker ismaillowkey.my.id and publish with topic **wa/send** and with body (number must with country code like 62 or indonesia)
 ```
 {
  "number" : "62xxxx",
