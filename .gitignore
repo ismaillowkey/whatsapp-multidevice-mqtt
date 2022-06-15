@@ -6,6 +6,8 @@
 # whatsapp
 baileys_auth_info/
 baileys_store_multi.json
+wa2mqtt.csv
+mqtt2wa.csv
 
 ### Node ###
 # Logs
