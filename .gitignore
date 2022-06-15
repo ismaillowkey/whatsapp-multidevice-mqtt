@@ -48,6 +48,8 @@ build/Release
 node_modules/
 jspm_packages/
 
+baileys_auth_info/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
