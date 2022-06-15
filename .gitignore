@@ -3,6 +3,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,node
 
+# whatsapp
+baileys_auth_info/
+baileys_store_multi.json
+
 ### Node ###
 # Logs
 logs
@@ -47,8 +51,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-
-baileys_auth_info/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
